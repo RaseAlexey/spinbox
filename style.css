@@ -1,0 +1,75 @@
+	body, html {
+		background-color:#6A7370;
+		width : 100%;
+		height: 100%;
+		margin: 0;
+	}
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		background-color:white;
+		width: 80%;
+		height: 100%;
+		padding: 1em;
+		margin: 0 auto;
+		box-sizing: border-box;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	}
+	.spinbox {
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		display: inline-block;
+		height: 3em;
+		width: 3em;
+		margin: 0.5em;
+		border: 1px solid black;
+	}
+	.spinbox_value {
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+		height: 100%;
+		text-align: center;
+		line-height: 3em;
+		background-color:#D5E1ED;
+	}
+	.spinbox_arrows {
+		display: inline-block;
+		vertical-align: top;
+		line-height: 1em;
+		width: 50%;
+		height: 100%;
+	}
+	.spinbox_arrow {
+		display: inline-block;
+		width:100%;
+		height:50%;
+		text-align: center;
+		line-height: 1.5em;
+		cursor: pointer;
+		box-sizing: border-box;
+	}
+	.spinbox_arrow:active {
+		border:1px solid black;
+	}
+	.arrow_up {
+		background-color:#DDEDD5;
+	}
+	.arrow_down {
+		background-color:#EDE2D5;;
+	}
+	.arrow_up:before {
+		content: "↑";	
+	}
+	.arrow_down:after {
+		content: "↓";	
+	}
+	.race_spinbox_group {
+		text-align: center;
+	}
+	.stat_spinbox {
+		line-height: 3em;
+		text-align: right
+	}
